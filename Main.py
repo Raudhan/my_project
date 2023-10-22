@@ -16,3 +16,11 @@ def main():
 if __name__ == "__main__":
     print("Hello Main !")
     main()
+
+from math_function import multiply, divide
+
+result_multiply = multiply(2, 3)
+result_divide = divide(6, 2)
+
+print("Multiply result:", result_multiply)
+print("Divide result:", result_divide)
